@@ -1,13 +1,13 @@
 
-# Velero (via Github Releases)
+# Velero (via Github Releases) (velero)
 
-[Velero](https://github.com/vmware-tanzu/velero) (formerly Heptio Ark) gives you tools to back up and restore your Kubernetes cluster resources and persistent volumes. You can run Velero with a public cloud platform or on-premises.
+Velero (formerly Heptio Ark) gives you tools to back up and restore your Kubernetes cluster resources and persistent volumes. You can run Velero with a public cloud platform or on-premises.
 
-## Example DevContainer Usage
+## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/xfrancois/devcontainers-features/velero:1": {}
+    "ghcr.io/adamlahbib/devcontainers-features/velero:1": {}
 }
 ```
 
@@ -17,3 +17,8 @@
 |-----|-----|-----|-----|
 | version | Select the version to install. | string | latest |
 
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/adamlahbib/devcontainers-features/blob/main/src/velero/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
